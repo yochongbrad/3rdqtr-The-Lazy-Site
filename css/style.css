@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    font-size: 1.2em;
+    font-family: 'Nunito', 'Trebuchet', 'Roboto', 'sans-serif' ;
+    text-align: center;
+    line-height: 1.5;
+}
+
+/* COLORS */
+.primary {color:#b14801;}.bg-primary{background-color:#b14801;}
+.secondary {color:#343a40}.bg-secondary{background-color:#343a40}
+
+:root{
+    --blue: #016AB1;
+    --green: #01B148;
+    --brown: #652901;
+    --white: #f0f0f0;
+    --black: #030303;
+}
+
+/* Main Styles */
+
+/* Navigation bar */
+nav {
+    background-color: var(--brown);
+}
+nav ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+   list-style-type: none;
+   padding: 1em;
+}
+
+nav a {
+    color: white;
+}
+
+/* header */
+#header {
+    color: #f0f0f0;
+    background: url(../img/bulkan.png) no-repeat center;
+    background-size: cover;
+    padding: 2em;
+}
+
+h1{
+    font-size: 5em;
+}
