@@ -13,13 +13,15 @@ body {
 }
 
 /* COLORS */
-.primary {color:#b14801;}.bg-primary{background-color:#b14801;}
+.primary {color:#f32c15;}.bg-primary{background-color:#f32c15;}
 .secondary {color:#343a40}.bg-secondary{background-color:#343a40}
 
 :root{
+    --orange: #f32c15;
+    --yellow: #ffdd24;
     --blue: #016AB1;
     --green: #01B148;
-    --brown: #652901;
+    --brown: #270a0a;
     --white: #f0f0f0;
     --black: #030303;
 }
@@ -27,9 +29,6 @@ body {
 /* Main Styles */
 
 /* Navigation bar */
-nav {
-    background-color: var(--brown);
-}
 nav ul {
     display: flex;
     flex-wrap: wrap;
