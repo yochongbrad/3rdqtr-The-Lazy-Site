@@ -13,7 +13,7 @@ body {
 }
 
 /* COLORS */
-.primary {color:#f32c15;}.bg-primary{background-color:#f32c15;}
+.primary {color:#f32c15;}.bg-primary{background-color:#f32c15;color:white;}
 .secondary {color:#343a40}.bg-secondary{background-color:#343a40}
 
 :root{
@@ -22,8 +22,6 @@ body {
     --blue: #016AB1;
     --green: #01B148;
     --brown: #270a0a;
-    --white: #f0f0f0;
-    --black: #030303;
 }
 
 /* Main Styles */
