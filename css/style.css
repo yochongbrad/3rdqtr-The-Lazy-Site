@@ -43,7 +43,7 @@ p {
     text-align: justify;
 }
 
-.email {
+.email {                        /*indent email*/
     margin-left: 1em;
 }
 
