@@ -19,5 +19,55 @@
         <h1>THE LAZY SITE 3.0</h1>
         <p>Progress is made by lazy men trying to find easier ways to do something</p>
     </div>
+
+        <div class="container tab">
+            <button class="tablinks" onclick="openqtr(event, '1st Quarter')">1st Quarter</button>
+            <button class="tablinks" onclick="openqtr(event, '2nd Quarter')">2nd Quarter</button>
+            <button class="tablinks" onclick="openqtr(event, '3rd Quarter')">3rd Quarter</button>
+        </div>
+        
+        <div class="main-content">
+            <div class="container">
+                <div id="1st Quarter" class="tabcontent">
+                    <h2>1st Quarter</h2>
+                    <p>Unang markahan</p>
+                </div>
+            
+                <div id="2nd Quarter" class="tabcontent">
+                    <h2>2nd Quarter</h2>
+                    <p>Ikalawang markahan</p> 
+                </div>
+            
+                <div id="3rd Quarter" class="tabcontent">
+                    <h2>3rd Quarter</h2>
+                    <p>Ikatlong Markahan</p>
+                </div>
+            </div>
+            <hr>
+            <div class="container">
+                <h3>The Lazy Site</h3>
+                <p>The Lazy Site informs its viewers that laziness has power, and persuades them to change the world by innovating time-saving innovations. With the power of slacking, you are able to accomplish many tasks simultaneously in simple but beautiful ways, short but meaningful, within a little amount of time.</p>
+
+                <h3>The Lazy Site 3.0</h3>
+                <p>As The Lazy Site's developer's knowledge broaden about Web developing, The Lazy Site is also improving. From local hard disk HTML to his very own website with the help of GitHub.</p>
+            </div>
+        </div>
+
+
+    <script>
+        function openqtr(evt, qtr) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+                }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+            document.getElementById(qtr).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
 </body>
 </html>
