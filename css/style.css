@@ -25,7 +25,17 @@ body {
 }
 
 /* Main Styles */
-
+.transparent{
+    background: none
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+body {
+    background: url(../img/bulkan.png) no-repeat top;
+    background-size: cover;
+}
 /* Navigation bar */
 nav ul {
     display: flex;
@@ -44,8 +54,6 @@ nav a {
 /* header */
 #header {
     color: #f0f0f0;
-    background: url(../img/bulkan.png) no-repeat center;
-    background-size: cover;
     padding: 2em;
 }
 
