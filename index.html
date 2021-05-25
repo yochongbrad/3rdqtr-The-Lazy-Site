@@ -8,11 +8,11 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <nav class="transparent container">
+    <nav>
         <ul class="container">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Contacts</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#contacts">Contacts</a></li>
+            <li><a href="#about">About</a></li>
         </ul>
     </nav>
     <div id="header" class="container">
@@ -29,30 +29,82 @@
         <div class="main-content">
             <div class="container">
                 <div id="1st Quarter" class="tabcontent">
-                    <h2>1st Quarter</h2>
-                    <p>Unang markahan</p>
+                    <div class="laman">
+                        <div class="entry">
+                            <h3 class="title">What's New in My New Normal?</h3>
+                            <div class="umaru-group">
+                                
+                            </div>
+                            <p>This is not the end for poor patients being ignored because of money. Public hospitals should be free for everyone.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             
                 <div id="2nd Quarter" class="tabcontent">
-                    <h2>2nd Quarter</h2>
-                    <p>Ikalawang markahan</p> 
+                    <div class="laman">
+
+                    </div>
                 </div>
             
                 <div id="3rd Quarter" class="tabcontent">
-                    <h2>3rd Quarter</h2>
-                    <p>Ikatlong Markahan</p>
+                    <div class="laman">
+                        <div class="entry">
+                            <h3 class="title">This is not the end</h3>
+                            <img src="https://www.spoilersguide.com/media/images/30/e9/30d7456ff01d4392cb1648e064aa.jpeg" alt="New amsterdam">
+                            <p>This is not the end for poor patients being ignored because of money. Public hospitals should be free for everyone.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
             <hr>
-            <div class="container">
-                <h3>The Lazy Site</h3>
-                <p>The Lazy Site informs its viewers that laziness has power, and persuades them to change the world by innovating time-saving innovations. With the power of slacking, you are able to accomplish many tasks simultaneously in simple but beautiful ways, short but meaningful, within a little amount of time.</p>
+            <section id="contacts">
+                <div class="container">
+                    <h2>Contacts</h2>
+                    <p>Feel free to message me in case you want to, need something, or maybe I’m the one who needs your help.</p>
+                    <br>
+                    <div class="contacts">
+                        <div class="contacts-flex">
+                            <img src="img/discord-avatar.png" alt="Pogi ito">
+                        </div>
 
-                <h3>The Lazy Site 3.0</h3>
-                <p>As The Lazy Site's developer's knowledge broaden about Web developing, The Lazy Site is also improving. From local hard disk HTML to his very own website with the help of GitHub.</p>
-            </div>
+                        <div class="contacts-flex">
+                            <p>Email me:</p>
+                            <a class="email" href="mailto:markstephena.bueno@gmail.com?subject=Your%20WebSite%20is%20very%20beautiful%20and%20interactive!">markstephena.bueno@gmail.com</a>
+                            <a class="email" href="mailto:markstephena.bueno@gmail.com?subject=Your%20WebSite%20is%20very%20beautiful%20and%20interactive!">mark.bueno@mshs.manila.edu.ph</a> 
+                            <br>
+                            <a href="https://www.facebook.com/msab816729435">Facebook</a>
+                            <br>
+                            <p>Phone: 09476709919</p>
+                            <br>
+                            <p>Address: 4 Privet Drive, Little Whinging, Surrey</p>
+                        </div>
+                        <p class="contact-flex">
+                            I hope you understand that web is such a powerful stuff. It can be invaded by invaders, hacked by hackers, predated by predators. Some of my personal information were tampered in order to reduce the risks of the said disadvantage of this web that can hold infinite amount of information.
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <hr>
+            <section id="about">
+                <div class="container">
+                    <h2>About</h2>
+                    <div class="about">
+                        <div>
+                            <h3>The Lazy Site</h3>
+                            <p>The Lazy Site informs its viewers that laziness has power, and persuades them to change the world by innovating time-saving innovations. With the power of slacking, you are able to accomplish many tasks simultaneously in simple but beautiful ways, short but meaningful, within a little amount of time.</p>
+                        </div>
+        
+                        <div>
+                            <h3>The Lazy Site 3.0</h3>
+                            <p>As The Lazy Site's developer's knowledge broaden about Web developing, The Lazy Site is also improving. From local hard disk HTML to my very own website, The Lazy Site grew thanks to <a href="https://github.com/yochongbrad">Github</a>.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
         </div>
-
+        <footer><p>&copy;The Lazy Site 2021</p></footer>
 
     <script>
         function openqtr(evt, qtr) {
@@ -69,5 +121,6 @@
             evt.currentTarget.className += " active";
         }
     </script>
+
 </body>
 </html>
