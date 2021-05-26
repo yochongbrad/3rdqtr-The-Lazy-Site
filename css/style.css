@@ -44,7 +44,7 @@ p {
     text-align: justify;
 }
 
-.contacts a {
+section a {
     color: var(--red);
 }
 
@@ -69,9 +69,7 @@ body {
     background: #eee;
 }
 
-img {
-    margin: inherit auto;
-}
+
 /* Navigation bar */
 nav {
     overflow: hidden;
@@ -147,6 +145,7 @@ h1{
 
 .tabcontent {
     display: none;
+    padding-bottom: 1em;
     border: 1px solid #eee;
     border-top: none;
 }
@@ -182,29 +181,16 @@ footer {
     padding: 1em;
 }
 
-.contacts-flex {
-    flex-grow: 1;
-    margin: 0.5em;
-}
 
 section{
     background-color: #f0f0f0;
     padding: 1em;
-}
-.about, .contacts {
-    display: flex;
-    flex: wrap;
 }
 
 .about div {
     padding: 1em;
 }
 
-.contacts img {
-    width: 100%;
-    min-width: 100px;
-    border-radius: 15px;
-}
 p[class="contacts-flex"] {
     font-size: 0.75em;
 }
@@ -220,13 +206,34 @@ p[class="contacts-flex"] {
 }
 
 .flex .entry {
-    display: flex;
     flex-direction: column;
     flex-grow: 1;
     flex-basis: 350px;
 }
 
-.long {
-    column-count: 3;
-    column-gap: 2em;
+
+.flex-v {
+    display: flex;
+    flex-wrap: wrap;
+    flex-grow: 1;
+    flex-basis: 350px;
+}
+
+.flex-v .entry {
+    flex-direction: row;
+    flex-basis: 350px;
+}
+section .entry {
+    background-color: inherit;
+    color: black;
+    padding: 1.5em;
+    border-radius: 1em;
+    flex-grow: 1;
+    width: 25%;
+    margin: 0;
+}
+
+#contacts img {
+    margin: 0;
+    height: inherit;
 }
