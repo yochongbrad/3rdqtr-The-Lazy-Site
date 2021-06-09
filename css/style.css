@@ -58,6 +58,12 @@ button {
     margin: 0;
 }
 
+.main-content a{
+    color:var(--red);
+}
+.main-content a:hover {
+    color: var(--orange);
+}
 /* ======== Main Styles ======== */
 
 body {
@@ -166,12 +172,15 @@ h1{
     width: 75%;
 }
 
+.img-imp {
+    min-width: 300px;
+}
+
 .center {
     text-align: center;
 }
 .title {
     text-align: center;
-    font-size: 1.2em;
     margin: 0.5em;
     font-weight: bold;
 }
@@ -197,6 +206,10 @@ section{
 
 p[class="contacts-flex"] {
     font-size: 0.75em;
+}
+
+.long {
+    font-size: 0.85em;
 }
 
 .poem p{
