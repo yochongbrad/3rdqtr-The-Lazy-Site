@@ -191,6 +191,10 @@ section{
     padding: 1em;
 }
 
+.entry img {
+    width: 50%;
+}
+
 p[class="contacts-flex"] {
     font-size: 0.75em;
 }
