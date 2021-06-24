@@ -25,7 +25,7 @@
             <button class="tablinks" onclick="openqtr(event, '1st')">1st Quarter</button>
             <button class="tablinks" onclick="openqtr(event, '2nd')">2nd Quarter</button>
             <button class="tablinks" onclick="openqtr(event, '3rd')">3rd Quarter</button>
-            <button class="tablinks" onclick="openqtr(event, '3rd')">4th Quarter</button>
+            <button class="tablinks" onclick="openqtr(event, '4th')">4th Quarter</button>
         </div>
         
         <div class="main-content">
@@ -148,7 +148,12 @@
                 </div>
 
                 <div id="4th" class="tabcontent">
-                    
+                   <div class="flex center">
+                        <div class="entry">
+                            <p>Bored?</p>
+                            <p>Browse <a href="https://www.facebook.com/reveredterritorymshs">here</a></p>
+                        </div> 
+                   </div>
                 </div>
             </div>
             <hr>
@@ -199,21 +204,21 @@
         </div>
         <footer><p>&copy;The Lazy Site 2021</p></footer>
 
-    <script>
-        function openqtr(evt, qtr) {
-            var i, tabcontent, tablinks;
-            tabcontent = document.getElementsByClassName("tabcontent");
-            for (i = 0; i < tabcontent.length; i++) {
+        <script>
+            function openqtr(evt, qtr) {
+              var i, tabcontent, tablinks;
+              tabcontent = document.getElementsByClassName("tabcontent");
+              for (i = 0; i < tabcontent.length; i++) {
                 tabcontent[i].style.display = "none";
-                }
-            tablinks = document.getElementsByClassName("tablinks");
-            for (i = 0; i < tablinks.length; i++) {
+              }
+              tablinks = document.getElementsByClassName("tablinks");
+              for (i = 0; i < tablinks.length; i++) {
                 tablinks[i].className = tablinks[i].className.replace(" active", "");
-                }
-            document.getElementById(qtr).style.display = "block";
-            evt.currentTarget.className += " active";
-        }
-    </script>
+              }
+              document.getElementById(qtr).style.display = "block";
+              evt.currentTarget.className += " active";
+            }
+            </script>
 
 </body>
 </html>
