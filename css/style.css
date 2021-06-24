@@ -156,6 +156,7 @@ h1{
     border-top: none;
 }
 
+
 /* ======== Important ========= */
 .entry {
     background-color: white;
@@ -202,6 +203,7 @@ section{
 
 .entry img {
     width: 50%;
+    max-width: 500px;
 }
 
 p[class="contacts-flex"] {
@@ -214,6 +216,35 @@ p[class="contacts-flex"] {
 
 .poem p{
     text-align: center;
+}
+
+/* ====== PRimer ====== */
+.primer {
+    flex-grow: 2;
+}
+.primer-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.primer-items {
+    flex-direction: column;
+    flex-basis: 500px;
+    flex-grow: 1;
+}
+
+.primer-items li, .primer-items li *  {
+    border: solid 1px black;
+}
+
+ul[class="primer-items"] img {
+    margin: 0;
+    border-radius: 0;
+    width: 25%;
+    display: inline-block;
+}
+
+ul[class="primer-items"] li div {
+    display: inline-block;
 }
 
 /* flex */
@@ -262,4 +293,5 @@ section .entry {
         font-family: 'Nunito', 'Trebuchet', 'Roboto', 'sans-serif' ;
         line-height: 1.3;
     }
+
 }
